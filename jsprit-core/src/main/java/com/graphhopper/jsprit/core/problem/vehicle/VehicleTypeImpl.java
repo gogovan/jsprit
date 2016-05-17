@@ -142,7 +142,7 @@ public class VehicleTypeImpl implements VehicleType {
          * @throws IllegalStateException if fixedCost is smaller than zero
          */
         public VehicleTypeImpl.Builder setFixedCost(double fixedCost) {
-            if (fixedCost < 0.0) throw new IllegalStateException("fixed costs cannot be smaller than zero");
+            // if (fixedCost < 0.0) throw new IllegalStateException("fixed costs cannot be smaller than zero");
             this.fixedCost = fixedCost;
             return this;
         }
